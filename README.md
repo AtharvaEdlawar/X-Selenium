@@ -1,17 +1,76 @@
-# Project Setup
+# X-Selenium
 
+X-Selenium is a web automation project using Selenium for extracting and analyzing trending topics on X (formerly Twitter). The project is built with a React frontend and a Node.js backend, with MongoDB as the database.
+
+## Features
+
+- Automates login and data extraction from X using Selenium.
+- Stores trending topics in MongoDB.
+- Displays the trends on a React-based frontend.
+
+---
+
+## Project Setup
+
+### Clone the Repository
+
+```bash
 git clone https://github.com/AtharvaEdlawar/X-Selenium.git
 
-open terminal npm install 
-cd backend  npm install
- 
- Update .env file in the backend folder with you X(twitter) username ,X(twitter) email , X(twitter) password
+
+# Install Dependencies
+
+Navigate to the project folder and install frontend dependencies
+```bash
+cd X-Selenium
+npm install
 
 
-now to run the project 
+Navigate to the backend folder and install backend dependencies:
+bash
+Copy code
+cd backend
+npm install
+Configure Environment Variables
+Inside the backend folder, create a .env file.
+Add your X (Twitter) credentials to the .env file:
+makefile
+Copy code
+X_USERNAME=your_username
+X_EMAIL=your_email
+X_PASSWORD=your_password
 
-open new terminal 
-npm run dev (to run the frontend)
+Project Structure
+Frontend
+Framework: React
+Main Component: src/comp/trendlist.jsx
+Backend
+Files:
+models/trend.js - Contains the MongoDB schema for trends.
+routes/trends.js - Defines API routes for trend-related operations.
+index.js - The main server file for handling backend logic and API endpoints.
+selenium.js - Contains the Selenium automation logic.
+Running the Project
+Start the Frontend
+Open a new terminal in the project root directory.
+Run the following command:
+bash
+Copy code
+npm run dev
+Start the Backend
+Open a new terminal and navigate to the backend directory:
+bash
+Copy code
+cd backend
+Start the backend server:
+bash
+Copy code
+node index.js 
+License
+This project is licensed under the MIT License.
 
-cd backend 
-node index.js(to run the main backend file)
+Contact
+For any questions or feedback, you can reach out to Atharva Edlawar.
+
+typescript
+Copy code
