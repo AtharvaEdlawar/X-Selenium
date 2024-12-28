@@ -41,7 +41,7 @@ Install the required dependencies
 npm install
 ```
 ### 3. Configure Environment Variables
-Inside the backend directory, create a .env file.
+Inside the backend directory,
 Add the following credentials to the .env file
 ```bash
 X_USERNAME=your_username
