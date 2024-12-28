@@ -1,76 +1,87 @@
 # X-Selenium
 
-X-Selenium is a web automation project using Selenium for extracting and analyzing trending topics on X (formerly Twitter). The project is built with a React frontend and a Node.js backend, with MongoDB as the database.
+X-Selenium is a web automation project that uses Selenium to extract and analyze trending topics on X (formerly Twitter). The project includes a React-based frontend, a Node.js backend, and MongoDB as the database.
+
+---
 
 ## Features
 
 - Automates login and data extraction from X using Selenium.
-- Stores trending topics in MongoDB.
-- Displays the trends on a React-based frontend.
+- Stores trending topics in a MongoDB database.
+- Displays trends on a user-friendly React frontend.
 
 ---
 
-## Project Setup
+## Setup Instructions
 
-### Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/AtharvaEdlawar/X-Selenium.git
+```
+### 2.install Dependencies
+For the Frontend
+Navigate to the project root directory
 
-
-# Install Dependencies
-
-Navigate to the project folder and install frontend dependencies
 ```bash
 cd X-Selenium
+```
+Install the required dependencies
+
+```bash
 npm install
-
-
-Navigate to the backend folder and install backend dependencies:
-bash
-Copy code
+```
+### For the Backend
+Navigate to the backend directory:
+```bash
 cd backend
+```
+Install the required dependencies
+```bash
 npm install
-Configure Environment Variables
-Inside the backend folder, create a .env file.
-Add your X (Twitter) credentials to the .env file:
-makefile
-Copy code
+```
+### 3. Configure Environment Variables
+Inside the backend directory, create a .env file.
+Add the following credentials to the .env file
+```bash
 X_USERNAME=your_username
 X_EMAIL=your_email
 X_PASSWORD=your_password
+```
+Replace your_username, your_email, and your_password with your X (Twitter) account details.
 
-Project Structure
-Frontend
+## Project Structure
+### Frontend
 Framework: React
+
 Main Component: src/comp/trendlist.jsx
-Backend
-Files:
-models/trend.js - Contains the MongoDB schema for trends.
-routes/trends.js - Defines API routes for trend-related operations.
-index.js - The main server file for handling backend logic and API endpoints.
-selenium.js - Contains the Selenium automation logic.
-Running the Project
-Start the Frontend
-Open a new terminal in the project root directory.
-Run the following command:
-bash
-Copy code
+
+## Backend
+Key Files:
+models/trend.js: Defines the MongoDB schema for storing trends.
+
+routes/trends.js: Contains API routes for trend-related operations.
+
+index.js: Main backend server file to handle API requests and logic.
+
+selenium.js: Core script that implements Selenium automation.
+
+## How to Run the Project
+
+### 1. Start the Frontend
+Open a terminal in the project root directory.
+Run the following command
+```bash
 npm run dev
-Start the Backend
-Open a new terminal and navigate to the backend directory:
-bash
-Copy code
-cd backend
-Start the backend server:
-bash
-Copy code
-node index.js 
-License
-This project is licensed under the MIT License.
+```
+### 2.  Start the Backend
+Open a new terminal and navigate to the backend directory
+run the following command
+```bash
+node index.js
+```
 
-Contact
-For any questions or feedback, you can reach out to Atharva Edlawar.
+## Contact
+atharva89edlawar@gmail.com
 
-typescript
-Copy code
+## Working video of the project
