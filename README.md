@@ -1,8 +1,14 @@
-# React + Vite
+# Project Setup
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+git clone https://github.com/AtharvaEdlawar/X-Selenium.git
 
-Currently, two official plugins are available:
+open terminal npm install 
+cd backend  npm install
+ 
+ Update .env file in the backend folder with you X(twitter) username ,X(twitter) email , X(twitter) password
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+open new terminal 
+npm run dev
+
+cd backend 
+node index.js
