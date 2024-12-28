@@ -7,8 +7,11 @@ cd backend  npm install
  
  Update .env file in the backend folder with you X(twitter) username ,X(twitter) email , X(twitter) password
 
+
+now to run the project 
+
 open new terminal 
-npm run dev
+npm run dev (to run the frontend)
 
 cd backend 
-node index.js
+node index.js(to run the main backend file)
