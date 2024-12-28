@@ -79,9 +79,14 @@ Open a new terminal and navigate to the backend directory
 run the following command
 ```bash
 node index.js
+
+
+
+
 ```
 
 ## Contact
 atharva89edlawar@gmail.com
 
 ## Working video of the project
+https://github.com/user-attachments/assets/ac148f7f-77d5-4185-afdb-ed8d6bfbd6cf
